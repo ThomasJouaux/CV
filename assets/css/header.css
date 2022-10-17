@@ -1,0 +1,29 @@
+.monbouton{
+    background-color:#FBF7EE !important;
+    height: 50px;
+    width:100%;
+    padding: 0%;
+}
+.monbouton:hover{
+    background-color: #764F00 !important;
+    
+}
+.monbouton:active{
+    background-color: #764F00 !important;
+    
+}
+.logo_Navbar{
+    margin-right: 10%;
+}
+.a_propos{
+    margin-left: 20%;
+}
+#ligne_nav{
+    margin-top: 0%;
+}
+#navbar{
+    background-color: #FBF7EE;
+}
+.text_head:hover{
+    color: aliceblue !important;
+}
