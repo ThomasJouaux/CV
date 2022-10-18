@@ -1,0 +1,17 @@
+
+.img_footer{
+    width: 3%;
+}
+.github{
+    margin-left: 40%;
+}
+.linkedin{
+    margin-left: 10%;
+}
+@media screen and (max-width:680px) {
+    .img_footer{
+        width: 15%;
+        margin-left: 20%;
+    }
+    
+}

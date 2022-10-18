@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -34,14 +34,14 @@
                             </li>
                             <li class="nav-item col-3">
                                 <div class="a_propos">
-                                    <a class="monbouton navbar-brand btn text_head" href="#"><i class="fa-sharp fa-solid logo_Navbar fa-graduation-cap"></i>Formations</a>
+                                    <a class="monbouton navbar-brand btn text_head" href="formation.php"><i class="fa-sharp fa-solid logo_Navbar fa-graduation-cap"></i>Formations</a>
 
                                 </div>
                             </li>
                             <li class="nav-item col-3">
                                 <div class="a_propos">
 
-                                    <a class="monbouton navbar-brand btn text_head" href="#"><i class="fa-sharp logo_Navbar fa-solid fa-at"></i>Contact</a>
+                                    <a class="monbouton navbar-brand btn text_head" href="contact.php"><i class="fa-sharp logo_Navbar fa-solid fa-at"></i>Contact</a>
 
                                 </div>
                             </li>

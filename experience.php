@@ -34,13 +34,47 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="bouton_Bas_Carou" ></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="bouton_Bas_Carou"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-label="Slide 2" id="bouton_Bas_Carou1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active" aria-label="Slide 3" id="bouton_Bas_Carou2"></button>
         </div>
+        <!-- Barre de progression -->
+
+        <section>
+            <div class="progressbarWrapper">
+                <span id="progressBar"></span>
+            </div>
+            <button class="btn_Anim" onclick="move()">JavaScript</button>
+
+        </section>
+        <section>
+            <div class="progressbarWrapper2">
+                <span id="progressBarSql"></span>
+            </div>
+            <button class="btn_Anim" id="sql_button" onclick="move1()">SQL</button>
+        </section>
+        <section>
+            <div class="progressbarWrapper2">
+                <span id="progressBarSymfony"></span>
+            </div>
+            <button class="btn_Anim" id="symfony_button"onclick="move2()">Symfony</button>
+        </section>
+        <section>
+            <div class="progressbarWrapper2">
+                <span id="progressBarReact"></span>
+            </div>
+            <button class="btn_Anim" id="react_button" onclick="move3()">REACT</button>
+        </section>
+        <section>
+            <div class="progressbarWrapper2">
+                <span id="progressBarCss"></span>
+            </div>
+            <button class="btn_Anim" id="css_button" onclick="move4()">CSS</button>
+        </section>
+        <?php include 'footer.php' ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-<script src="..\assets\js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="..\assets\js\script.js"></script>
 
 </html>
